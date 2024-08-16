@@ -298,12 +298,12 @@ const Featured = () => {
                     <select name="priceRange" onChange={handleFilters} value={priceRangefilter.join('-')} className="select select-info w-52 max-w-xs">
                         <option disabled selected>Select Price Range</option>
                         <option value="">All range</option>
-                        <option value="1-10">1 - 10</option>
-                        <option value="11-20">10 - 20</option>
-                        <option value="21-30">21 - 30</option>
-                        <option value="31-40">31 - 40</option>
-                        <option value="41-50">41 - 50</option>
-                        <option value="51-1000">51 - 100</option>
+                        <option value="1-100">1 - 100</option>
+                        <option value="101-200">101 - 200</option>
+                        <option value="201-300">201 - 300</option>
+                        <option value="301-400">301 - 400</option>
+                        <option value="401-500">401 - 500</option>
+                        <option value="501-10000">501 - 10000</option>
                     </select>
 
                 </div>
