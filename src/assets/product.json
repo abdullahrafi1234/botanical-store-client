@@ -1,0 +1,354 @@
+[
+    {
+      "name": "Red Apple",
+      "image": "https://i.ibb.co/c2QGZ4t/other-04.png",
+      "description": "Fresh and juicy red apples.",
+      "price": 1.2,
+      "category": "fruits",
+      "ratings": 4.5,
+      "date_time": "2024-08-16T10:15:30Z"
+    },
+    {
+      "name": "Banana",
+      "image": "https://i.ibb.co/c2QGZ4t/other-04.png",
+      "description": "Sweet and ripe bananas.",
+      "price": 0.5,
+      "category": "fruits",
+      "ratings": 4.7,
+      "date_time": "2024-08-16T10:20:30Z"
+    },
+    {
+      "name": "Orange Juice",
+      "image": "https://i.ibb.co/c2QGZ4t/other-04.png",
+      "description": "100% pure orange juice.",
+      "price": 2.0,
+      "category": "fruit juice",
+      "ratings": 4.6,
+      "date_time": "2024-08-16T10:25:30Z"
+    },
+    {
+      "name": "Carrot",
+      "image": "https://i.ibb.co/c2QGZ4t/other-04.png",
+      "description": "Crunchy and fresh carrots.",
+      "price": 0.7,
+      "category": "vegetable",
+      "ratings": 4.4,
+      "date_time": "2024-08-16T10:30:30Z"
+    },
+    {
+      "name": "Almonds",
+      "image": "https://i.ibb.co/c2QGZ4t/other-04.png",
+      "description": "Crunchy and nutritious almonds.",
+      "price": 5.5,
+      "category": "dried",
+      "ratings": 4.8,
+      "date_time": "2024-08-16T10:35:30Z"
+    },
+    {
+      "name": "Tomato",
+      "image": "https://i.ibb.co/c2QGZ4t/other-04.png",
+      "description": "Juicy and ripe tomatoes.",
+      "price": 1.0,
+      "category": "vegetable",
+      "ratings": 4.3,
+      "date_time": "2024-08-16T10:40:30Z"
+    },
+    {
+      "name": "Strawberries",
+      "image": "https://i.ibb.co/c2QGZ4t/other-04.png",
+      "description": "Fresh and sweet strawberries.",
+      "price": 3.0,
+      "category": "fruits",
+      "ratings": 4.9,
+      "date_time": "2024-08-16T10:45:30Z"
+    },
+    {
+      "name": "Grapes",
+      "image": "https://example.com/images/grapes.jpg",
+      "description": "Sweet and juicy grapes.",
+      "price": 2.5,
+      "category": "fruits",
+      "ratings": 4.5,
+      "date_time": "2024-08-16T10:50:30Z"
+    },
+    {
+      "name": "Broccoli",
+      "image": "https://example.com/images/broccoli.jpg",
+      "description": "Fresh and healthy broccoli.",
+      "price": 1.8,
+      "category": "vegetable",
+      "ratings": 4.6,
+      "date_time": "2024-08-16T10:55:30Z"
+    },
+    {
+      "name": "Pineapple Juice",
+      "image": "https://example.com/images/pineapple_juice.jpg",
+      "description": "Refreshing pineapple juice.",
+      "price": 2.2,
+      "category": "fruit juice",
+      "ratings": 4.7,
+      "date_time": "2024-08-16T11:00:30Z"
+    },
+    {
+      "name": "Pistachios",
+      "image": "https://example.com/images/pistachios.jpg",
+      "description": "Crunchy and flavorful pistachios.",
+      "price": 6.0,
+      "category": "dried",
+      "ratings": 4.8,
+      "date_time": "2024-08-16T11:05:30Z"
+    },
+    {
+      "name": "Spinach",
+      "image": "https://example.com/images/spinach.jpg",
+      "description": "Fresh and nutritious spinach.",
+      "price": 1.5,
+      "category": "vegetable",
+      "ratings": 4.4,
+      "date_time": "2024-08-16T11:10:30Z"
+    },
+    {
+      "name": "Mango",
+      "image": "https://example.com/images/mango.jpg",
+      "description": "Sweet and juicy mangoes.",
+      "price": 2.8,
+      "category": "fruits",
+      "ratings": 4.9,
+      "date_time": "2024-08-16T11:15:30Z"
+    },
+    {
+      "name": "Cucumber",
+      "image": "https://example.com/images/cucumber.jpg",
+      "description": "Cool and crisp cucumbers.",
+      "price": 0.9,
+      "category": "vegetable",
+      "ratings": 4.3,
+      "date_time": "2024-08-16T11:20:30Z"
+    },
+    {
+      "name": "Walnuts",
+      "image": "https://example.com/images/walnuts.jpg",
+      "description": "Crunchy and healthy walnuts.",
+      "price": 5.0,
+      "category": "dried",
+      "ratings": 4.7,
+      "date_time": "2024-08-16T11:25:30Z"
+    },
+    {
+      "name": "Blueberries",
+      "image": "https://example.com/images/blueberries.jpg",
+      "description": "Fresh and sweet blueberries.",
+      "price": 3.5,
+      "category": "fruits",
+      "ratings": 4.8,
+      "date_time": "2024-08-16T11:30:30Z"
+    },
+    {
+      "name": "Peaches",
+      "image": "https://example.com/images/peaches.jpg",
+      "description": "Sweet and juicy peaches.",
+      "price": 2.5,
+      "category": "fruits",
+      "ratings": 4.6,
+      "date_time": "2024-08-16T11:35:30Z"
+    },
+    {
+      "name": "Celery",
+      "image": "https://example.com/images/celery.jpg",
+      "description": "Crisp and fresh celery.",
+      "price": 1.2,
+      "category": "vegetable",
+      "ratings": 4.3,
+      "date_time": "2024-08-16T11:40:30Z"
+    },
+    {
+      "name": "Apple Juice",
+      "image": "https://example.com/images/apple_juice.jpg",
+      "description": "Refreshing apple juice.",
+      "price": 2.0,
+      "category": "fruit juice",
+      "ratings": 4.5,
+      "date_time": "2024-08-16T11:45:30Z"
+    },
+    {
+      "name": "Cashews",
+      "image": "https://example.com/images/cashews.jpg",
+      "description": "Crunchy and creamy cashews.",
+      "price": 6.5,
+      "category": "dried",
+      "ratings": 4.7,
+      "date_time": "2024-08-16T11:50:30Z"
+    },
+    {
+      "name": "Green Peas",
+      "image": "https://example.com/images/green_peas.jpg",
+      "description": "Sweet and tender green peas.",
+      "price": 1.3,
+      "category": "vegetable",
+      "ratings": 4.4,
+      "date_time": "2024-08-16T11:55:30Z"
+    },
+    {
+      "name": "Blackberries",
+      "image": "https://example.com/images/blackberries.jpg",
+      "description": "Fresh and tart blackberries.",
+      "price": 3.8,
+      "category": "fruits",
+      "ratings": 4.6,
+      "date_time": "2024-08-16T12:00:30Z"
+    },
+    {
+      "name": "Kale",
+      "image": "https://example.com/images/kale.jpg",
+      "description": "Fresh and nutritious kale.",
+      "price": 1.5,
+      "category": "vegetable",
+      "ratings": 4.5,
+      "date_time": "2024-08-16T12:05:30Z"
+    },
+    {
+      "name": "Pomegranate Juice",
+      "image": "https://example.com/images/pomegranate_juice.jpg",
+      "description": "Rich and refreshing pomegranate juice.",
+      "price": 2.8,
+      "category": "fruit juice",
+      "ratings": 4.8,
+      "date_time": "2024-08-16T12:10:30Z"
+    },
+    {
+      "name": "Hazelnuts",
+      "image": "https://example.com/images/hazelnuts.jpg",
+      "description": "Crunchy and flavorful hazelnuts.",
+      "price": 7.0,
+      "category": "dried",
+      "ratings": 4.9,
+      "date_time": "2024-08-16T12:15:30Z"
+    },
+    {
+      "name": "Zucchini",
+      "image": "https://example.com/images/zucchini.jpg",
+      "description": "Fresh and versatile zucchini.",
+      "price": 1.1,
+      "category": "vegetable",
+      "ratings": 4.3,
+      "date_time": "2024-08-16T12:20:30Z"
+    },
+    {
+      "name": "Cherries",
+      "image": "https://example.com/images/cherries.jpg",
+      "description": "Sweet and juicy cherries.",
+      "price": 3.0,
+      "category": "fruits",
+      "ratings": 4.7,
+      "date_time": "2024-08-16T12:25:30Z"
+    },
+    {
+      "name": "Watermelon",
+      "image": "https://example.com/images/watermelon.jpg",
+      "description": "Refreshing and sweet watermelon.",
+      "price": 4.5,
+      "category": "fruits",
+      "ratings": 4.8,
+      "date_time": "2024-08-16T12:30:30Z"
+    },
+    {
+      "name": "Bell Pepper",
+      "image": "https://example.com/images/bell_pepper.jpg",
+      "description": "Colorful and crisp bell peppers.",
+      "price": 1.7,
+      "category": "vegetable",
+      "ratings": 4.6,
+      "date_time": "2024-08-16T12:35:30Z"
+    },
+    {
+      "name": "Grapefruit Juice",
+      "image": "https://example.com/images/grapefruit_juice.jpg",
+      "description": "Tangy and refreshing grapefruit juice.",
+      "price": 2.3,
+      "category": "fruit juice",
+      "ratings": 4.5,
+      "date_time": "2024-08-16T12:40:30Z"
+    },
+    {
+      "name": "Macadamia Nuts",
+      "image": "https://example.com/images/macadamia_nuts.jpg",
+      "description": "Rich and buttery macadamia nuts.",
+      "price": 8.0,
+      "category": "dried",
+      "ratings": 4.9,
+      "date_time": "2024-08-16T12:45:30Z"
+    },
+    {
+      "name": "Eggplant",
+      "image": "https://example.com/images/eggplant.jpg",
+      "description": "Versatile and fresh eggplant.",
+      "price": 1.4,
+      "category": "vegetable",
+      "ratings": 4.4,
+      "date_time": "2024-08-16T12:50:30Z"
+    },
+    {
+      "name": "Raspberries",
+      "image": "https://example.com/images/raspberries.jpg",
+      "description": "Fresh and sweet raspberries.",
+      "price": 3.6,
+      "category": "fruits",
+      "ratings": 4.7,
+      "date_time": "2024-08-16T12:55:30Z"
+    },
+    {
+      "name": "Cabbage",
+      "image": "https://example.com/images/cabbage.jpg",
+      "description": "Fresh and crunchy cabbage.",
+      "price": 1.0,
+      "category": "vegetable",
+      "ratings": 4.3,
+      "date_time": "2024-08-16T13:00:30Z"
+    },
+    {
+      "name": "Mango Juice",
+      "image": "https://example.com/images/mango_juice.jpg",
+      "description": "Sweet and refreshing mango juice.",
+      "price": 2.5,
+      "category": "fruit juice",
+      "ratings": 4.6,
+      "date_time": "2024-08-16T13:05:30Z"
+    },
+    {
+      "name": "Brazil Nuts",
+      "image": "https://example.com/images/brazil_nuts.jpg",
+      "description": "Crunchy and healthy Brazil nuts.",
+      "price": 7.5,
+      "category": "dried",
+      "ratings": 4.8,
+      "date_time": "2024-08-16T13:10:30Z"
+    },
+    {
+      "name": "Lettuce",
+      "image": "https://example.com/images/lettuce.jpg",
+      "description": "Fresh and crispy lettuce.",
+      "price": 1.2,
+      "category": "vegetable",
+      "ratings": 4.5,
+      "date_time": "2024-08-16T13:15:30Z"
+    },
+    {
+      "name": "Plums",
+      "image": "https://example.com/images/plums.jpg",
+      "description": "Juicy and sweet plums.",
+      "price": 2.2,
+      "category": "fruits",
+      "ratings": 4.6,
+      "date_time": "2024-08-16T13:20:30Z"
+    },
+    {
+      "name": "Beetroot",
+      "image": "https://example.com/images/beetroot.jpg",
+      "description": "Fresh and earthy beetroot.",
+      "price": 1.6,
+      "category": "vegetable",
+      "ratings": 4.4,
+      "date_time": "2024-08-16T13:25:30Z"
+    }
+  ]
+  
