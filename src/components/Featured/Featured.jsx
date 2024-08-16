@@ -263,37 +263,37 @@ const Featured = () => {
                 </div>
                 <div className="space-x-5">
                     <select name="brand" onChange={handleFilters} value={nameFilter} className="select select-info w-52 max-w-xs">
-                        <option disabled selected>Select Brand</option>
-                        <option value="" >All Brands</option>
-                        <option value="Corsair">Corsair</option>
-                        <option value="Noctua">Noctua</option>
-                        <option value="Be quiet">be quiet!</option>
-                        <option value="Thermaltake" >Thermaltake</option>
-                        <option value="NZXT">NZXT</option>
-                        <option value="Arctic">Arctic</option>
-                        <option value="Fractal Design">Fractal Design</option>
-                        <option value="Lian Li">Lian Li</option>
-                        <option value="Phanteks">Phanteks</option>
-                        <option value="SilverStone">SilverStone</option>
-                        <option value="Enermax">Enermax</option>
-                        <option value="ID-COOLING">ID-COOLING</option>
-                        <option value="Zalman">Zalman</option>
-                        <option value="Vetroo">Vetroo</option>
-                        <option value="Scythe">Scythe</option>
+                        <option disabled selected>Select Name</option>
+                        <option value="" >All Items</option>
+                        <option value="Carrot">Carrot</option>
+                        <option value="Red Apple">Red Apple</option>
+                        <option value="Banana">Banana</option>
+                        <option value="Orange Juice" >Orange Juice</option>
+                        <option value="Almonds">Almonds</option>
+                        <option value="Tomato">Tomato</option>
+                        <option value="Strawberries">Strawberries</option>
+                        <option value="Grapes">Grapes</option>
+                        <option value="Broccoli">Broccoli</option>
+                        <option value="Pineapple Juice">Pineapple Juice</option>
+                        <option value="Pistachios">Pistachios</option>
+                        <option value="Spinach">Spinach</option>
+                        <option value="Mango">Mango</option>
+                        <option value="Blackberries">Blackberries</option>
+                        <option value="Scythe">Watermelon</option>
 
                     </select>
                     <select name="category" onChange={handleFilters} value={categoryFilter} className="select select-info w-52 max-w-xs">
                         <option disabled selected>Select Categories</option>
                         <option value="">ALL Categories</option>
-                        <option value="Case Fan">Case Fan</option>
-                        <option value="CPU Cooler Fan">CPU Cooler Fan</option>
-                        <option value="RGB Fan">RGB Fan</option>
-                        <option value="Silent Fan">Silent Fan</option>
-                        <option value="High Airflow Fan">High Airflow Fan</option>
-                        <option value="Radiator Fan">Radiator Fan</option>
+                        <option value="fruits">Fruits</option>
+                        <option value="fruit juice">Fruit juice</option>
+                        <option value="vegetable">Vegetable</option>
+                        <option value="dried">Dried</option>
+                        <option value="others">Others</option>
+                        {/* <option value="Radiator Fan">Radiator Fan</option>
                         <option value="Slim Fan">Slim Fan</option>
                         <option value="ARGB Fan">ARGB Fan</option>
-                        <option value="LED Fan">LED Fan</option>
+                        <option value="LED Fan">LED Fan</option> */}
                     </select>
                     <select name="priceRange" onChange={handleFilters} value={priceRangefilter.join('-')} className="select select-info w-52 max-w-xs">
                         <option disabled selected>Select Price Range</option>
@@ -310,49 +310,37 @@ const Featured = () => {
             </div>
 
 
-            <div className="grid md:grid-cols-4 grid-cols-1 gap-5">
-
+            {/* <div className="grid md:grid-cols-4 grid-cols-1 gap-5">
                 {
                     fans?.map((fan) =>
                         <div key={fan._id} className="border border-gray-600 text-center space-y-2 px-6 py-4 ">
-
-
                             <img src={fan.image} alt={fan.image} className="border " />
                             <h2 className="font-bold text-center">Brand: {fan.name}</h2>
                             <h3 className="font-medium text-center"><span className="font-bold"> Model:</span> {fan.name}</h3>
                             <p className="text-center w-fit">{fan.description}</p>
                             <h4 className=" font-semibold ">PRICE: {fan.price}</h4>
                             <h5>{new Date(fan.timestamp).toLocaleString()}</h5>
+                        </div>
+                    )
+                }
+            </div> */}
+            <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5">
+                {
+                    fans?.map((fan) =>
+                        <div key={fan._id} className="border shadow-lg border-gray-600 space-y-2 px-6 py-4 ">
 
 
+                            <img  src={fan.image} alt={fan.image} className="border  w-80 h-64" />
+                            <h2 className="font-bold ml-2">Name: {fan.name}</h2>
+                            <p className=" ml-2 w-fit">Description: {fan.description}</p>
+                            <h3 className="font-medium ml-2 "><span className="font-bold"> Category:</span> {fan.category}</h3>
+                            <h4 className="ml-2 font-semibold ">PRICE: {fan.price} $</h4>
+                            <h5 className='ml-2'>Date: {new Date(fan.timestamp).toLocaleString()}</h5>
 
                         </div>
                     )
                 }
             </div>
-
-
-
-            {/* <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5">
-
-                {
-                    products?.map((product) =>
-                        <div key={product._id} className="border border-gray-600 space-y-2 px-6 py-4 ">
-
-
-                            <img src={product.image} alt={product.image} className="border " />
-                            <h2 className="font-bold ml-2">Name: {product.name}</h2>
-                            <h3 className="font-medium ml-2 "><span className="font-bold"> Category:</span> {product.category}</h3>
-                            <p className="text-center ml-2 w-fit">Description: {product.description}</p>
-                            <h4 className="ml-2 font-semibold ">PRICE: {product.price} $</h4>
-                            <h5>{new Date(product.timestamp).toLocaleString()}</h5>
-
-
-
-                        </div>
-                    )
-                }
-            </div> */}
         </div>
     );
 };
