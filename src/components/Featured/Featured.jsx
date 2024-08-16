@@ -17,9 +17,9 @@ const Featured = () => {
     const [filter, setFilter] = useState("");
 
     // categoriaztion
-    const [nameFilter, setBrandfilter] = useState("")
+    const [nameFilter, setNamefilter] = useState("")
     const [categoryFilter, setCategoryfilter] = useState("")
-    const [priceRangefilter, setpriceRangefilter] = useState([1, 100])
+    const [priceRangefilter, setpriceRangefilter] = useState([1, ''])
 
     const axiosPublic = useAxiosPublic()
 
@@ -125,7 +125,7 @@ const Featured = () => {
         const { name, value } = e.target
 
         if (name === 'brand') {
-            setBrandfilter(value)
+            setNamefilter(value)
         }
 
         else if (name === 'category') {
@@ -303,7 +303,7 @@ const Featured = () => {
                         <option value="21-30">21 - 30</option>
                         <option value="31-40">31 - 40</option>
                         <option value="41-50">41 - 50</option>
-                        <option value="51-100">51 - 100</option>
+                        <option value="51-1000">51 - 100</option>
                     </select>
 
                 </div>
@@ -322,7 +322,7 @@ const Featured = () => {
                             <h3 className="font-medium text-center"><span className="font-bold"> Model:</span> {fan.name}</h3>
                             <p className="text-center w-fit">{fan.description}</p>
                             <h4 className=" font-semibold ">PRICE: {fan.price}</h4>
-                            {/* <h5>{new Date(fan.timestamp).toLocaleString()}</h5> */}
+                            <h5>{new Date(fan.timestamp).toLocaleString()}</h5>
 
 
 

@@ -1,0 +1,424 @@
+{
+    "products": [
+        {
+            "_id": "66bfac3f65f6a431ccfd7c40",
+            "name": "Red Apple",
+            "image": "https://i.ibb.co/c2QGZ4t/other-04.png",
+            "description": "Fresh and juicy red apples.",
+            "price": 120,
+            "category": "fruits",
+            "ratings": 4.5,
+            "timestamp": "2024-08-16"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c41",
+            "name": "Begun",
+            "image": "https://i.ibb.co/kcS3xbj/product-13.jpg",
+            "description": "Sweet and ripe bananas.",
+            "price": 500,
+            "category": "fruits",
+            "ratings": 4.7,
+            "timestamp": "2024-08-15"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c42",
+            "name": "Orange Juice",
+            "image": "https://i.ibb.co/6rCdB6V/bg-item-03.jpg",
+            "description": "100% pure orange juice.",
+            "price": 200,
+            "category": "fruit juice",
+            "ratings": 4.6,
+            "timestamp": "2024-08-25"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c43",
+            "name": "Carrot",
+            "image": "https://i.ibb.co/8m18TdY/item-cart-02.jpg",
+            "description": "Crunchy and fresh carrots.",
+            "price": 70,
+            "category": "vegetable",
+            "ratings": 4.4,
+            "timestamp": "2024-09-16"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c44",
+            "name": "Almonds",
+            "image": "https://i.ibb.co/JRWDR5h/other-02.png",
+            "description": "Crunchy and nutritious almonds.",
+            "price": 55,
+            "category": "dried",
+            "ratings": 4.8,
+            "timestamp": "2023-08-16"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c45",
+            "name": "Tomato",
+            "image": "https://i.ibb.co/3CXsjSw/bg-item-01.jpg",
+            "description": "Juicy and ripe tomatoes.",
+            "price": 100,
+            "category": "vegetable",
+            "ratings": 4.3,
+            "timestamp": "2024-08-26"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c46",
+            "name": "Strawberries",
+            "image": "https://i.ibb.co/9wkGXjQ/item-cart-01.jpg",
+            "description": "Fresh and sweet strawberries.",
+            "price": 330,
+            "category": "fruits",
+            "ratings": 4.9,
+            "timestamp": "2024-08-26"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c47",
+            "name": "Grapes",
+            "image": "https://i.ibb.co/3MS3Mhk/product-01.jpg",
+            "description": "Sweet and juicy grapes.",
+            "price": 255,
+            "category": "fruits",
+            "ratings": 4.5,
+            "timestamp": "2023-09-16"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c48",
+            "name": "Broccoli",
+            "image": "https://i.ibb.co/8m18TdY/item-cart-02.jpg",
+            "description": "Fresh and healthy broccoli.",
+            "price": 108,
+            "category": "vegetable",
+            "ratings": 4.6,
+            "timestamp": "2024-08-10"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c49",
+            "name": "Pineapple Juice",
+            "image": "https://i.ibb.co/6rCdB6V/bg-item-03.jpg",
+            "description": "Refreshing pineapple juice.",
+            "price": 282,
+            "category": "fruit juice",
+            "ratings": 4.7,
+            "timestamp": "2024-08-30"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c4a",
+            "name": "Pistachios",
+            "image": "https://i.ibb.co/3CXsjSw/bg-item-01.jpg",
+            "description": "Crunchy and flavorful pistachios.",
+            "price": 600,
+            "category": "dried",
+            "ratings": 4.8,
+            "timestamp": "2024-08-25"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c4b",
+            "name": "Spinach",
+            "image": "https://i.ibb.co/9wkGXjQ/item-cart-01.jpg",
+            "description": "Fresh and nutritious spinach.",
+            "price": 195,
+            "category": "vegetable",
+            "ratings": 4.4,
+            "timestamp": "2024-08-09"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c4c",
+            "name": "Mango",
+            "image": "https://i.ibb.co/8m18TdY/item-cart-02.jpg",
+            "description": "Sweet and juicy mangoes.",
+            "price": 228,
+            "category": "fruits",
+            "ratings": 4.9,
+            "timestamp": "2024-02-16"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c4d",
+            "name": "Cucumber",
+            "image": "https://i.ibb.co/3MS3Mhk/product-01.jpg",
+            "description": "Cool and crisp cucumbers.",
+            "price": 499,
+            "category": "vegetable",
+            "ratings": 4.3,
+            "timestamp": "2024-03-16"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c4e",
+            "name": "Walnuts",
+            "image": "https://i.ibb.co/JRWDR5h/other-02.png",
+            "description": "Crunchy and healthy walnuts.",
+            "price": 500,
+            "category": "dried",
+            "ratings": 4.7,
+            "timestamp": "2024-04-16"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c4f",
+            "name": "Blueberries",
+            "image": "https://i.ibb.co/kcS3xbj/product-13.jpg",
+            "description": "Fresh and sweet blueberries.",
+            "price": 365,
+            "category": "fruits",
+            "ratings": 4.8,
+            "timestamp": "2024-09-16"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c50",
+            "name": "Peaches",
+            "image": "https://i.ibb.co/6rCdB6V/bg-item-03.jpg",
+            "description": "Sweet and juicy peaches.",
+            "price": 205,
+            "category": "fruits",
+            "ratings": 4.6,
+            "timestamp": "2024-12-16"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c51",
+            "name": "Celery",
+            "image": "https://i.ibb.co/3CXsjSw/bg-item-01.jpg",
+            "description": "Crisp and fresh celery.",
+            "price": 120,
+            "category": "vegetable",
+            "ratings": 4.3,
+            "timestamp": "2020-08-16"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c52",
+            "name": "Apple Juice",
+            "image": "https://i.ibb.co/9wkGXjQ/item-cart-01.jpg",
+            "description": "Refreshing apple juice.",
+            "price": 280,
+            "category": "fruit juice",
+            "ratings": 4.5,
+            "timestamp": "2020-08-16"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c53",
+            "name": "Cashews",
+            "image": "https://i.ibb.co/8m18TdY/item-cart-02.jpg",
+            "description": "Crunchy and creamy cashews.",
+            "price": 650,
+            "category": "dried",
+            "ratings": 4.7,
+            "timestamp": "2018-08-16"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c54",
+            "name": "Green Peas",
+            "image": "https://i.ibb.co/3MS3Mhk/product-01.jpg",
+            "description": "Sweet and tender green peas.",
+            "price": 120,
+            "category": "vegetable",
+            "ratings": 4.4,
+            "timestamp": "2023-08-16"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c55",
+            "name": "Blackberries",
+            "image": "https://i.ibb.co/JzJW9MC/bg-item-02.jpg",
+            "description": "Fresh and tart blackberries.",
+            "price": 358,
+            "category": "fruits",
+            "ratings": 4.6,
+            "timestamp": "2024-11-16"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c56",
+            "name": "Kale",
+            "image": "https://i.ibb.co/M5r2HZw/bg-item-04.jpg",
+            "description": "Fresh and nutritious kale.",
+            "price": 1255,
+            "category": "vegetable",
+            "ratings": 4.5,
+            "timestamp": "2024-08-11"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c57",
+            "name": "Pomegranate Juice",
+            "image": "https://i.ibb.co/f42wj4v/other-01.jpg",
+            "description": "Rich and refreshing pomegranate juice.",
+            "price": 218,
+            "category": "fruit juice",
+            "ratings": 4.8,
+            "timestamp": "2022-08-16"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c58",
+            "name": "Hazelnuts",
+            "image": "https://i.ibb.co/Ln29RsH/product-03.jpg",
+            "description": "Crunchy and flavorful hazelnuts.",
+            "price": 750,
+            "category": "dried",
+            "ratings": 4.9,
+            "timestamp": "2021-08-16"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c59",
+            "name": "Zucchini",
+            "image": "https://i.ibb.co/qd8hprJ/product-16.jpg",
+            "description": "Fresh and versatile zucchini.",
+            "price": 111,
+            "category": "vegetable",
+            "ratings": 4.3,
+            "timestamp": "2024-05-16"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c5a",
+            "name": "Cherries",
+            "image": "https://i.ibb.co/gFNTVCg/product-10.jpg",
+            "description": "Sweet and juicy cherries.",
+            "price": 330,
+            "category": "fruits",
+            "ratings": 4.7,
+            "timestamp": "2024-02-16"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c5b",
+            "name": "Watermelon",
+            "image": "https://i.ibb.co/R9K5mqG/product-09.jpg",
+            "description": "Refreshing and sweet watermelon.",
+            "price": 425,
+            "category": "fruits",
+            "ratings": 4.8,
+            "timestamp": "2021-08-16"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c5c",
+            "name": "Bell Pepper",
+            "image": "https://i.ibb.co/Ln29RsH/product-03.jpg",
+            "description": "Colorful and crisp bell peppers.",
+            "price": 177,
+            "category": "vegetable",
+            "ratings": 4.6,
+            "timestamp": "2020-08-16"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c5d",
+            "name": "Grapefruit Juice",
+            "image": "https://i.ibb.co/qd8hprJ/product-16.jpg",
+            "description": "Tangy and refreshing grapefruit juice.",
+            "price": 233,
+            "category": "fruit juice",
+            "ratings": 4.5,
+            "timestamp": "2024-08-30"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c5e",
+            "name": "Macadamia Nuts",
+            "image": "https://i.ibb.co/JzJW9MC/bg-item-02.jpg",
+            "description": "Rich and buttery macadamia nuts.",
+            "price": 800,
+            "category": "dried",
+            "ratings": 4.9,
+            "timestamp": "2024-08-20"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c5f",
+            "name": "Eggplant",
+            "image": "https://i.ibb.co/M5r2HZw/bg-item-04.jpg",
+            "description": "Versatile and fresh eggplant.",
+            "price": 154,
+            "category": "vegetable",
+            "ratings": 4.4,
+            "timestamp": "2024-06-16"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c60",
+            "name": "Raspberries",
+            "image": "https://i.ibb.co/f42wj4v/other-01.jpg",
+            "description": "Fresh and sweet raspberries.",
+            "price": 356,
+            "category": "fruits",
+            "ratings": 4.7,
+            "timestamp": "2024-05-16"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c61",
+            "name": "Cabbage",
+            "image": "https://i.ibb.co/gFNTVCg/product-10.jpg",
+            "description": "Fresh and crunchy cabbage.",
+            "price": 100,
+            "category": "vegetable",
+            "ratings": 4.3,
+            "timestamp": "2024-09-16"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c62",
+            "name": "Mango Juice",
+            "image": "https://i.ibb.co/R9K5mqG/product-09.jpg",
+            "description": "Sweet and refreshing mango juice.",
+            "price": 205,
+            "category": "fruit juice",
+            "ratings": 4.6,
+            "timestamp": "2021-08-16"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c63",
+            "name": "Brazil Nuts",
+            "image": "https://i.ibb.co/gFNTVCg/product-10.jpg",
+            "description": "Crunchy and healthy Brazil nuts.",
+            "price": 705,
+            "category": "dried",
+            "ratings": 4.8,
+            "timestamp": "2024-02-16"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c64",
+            "name": "Lettuce",
+            "image": "https://i.ibb.co/qd8hprJ/product-16.jpg",
+            "description": "Fresh and crispy lettuce.",
+            "price": 182,
+            "category": "vegetable",
+            "ratings": 4.5,
+            "timestamp": "2018-08-16"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c65",
+            "name": "Plums",
+            "image": "https://i.ibb.co/R9K5mqG/product-09.jpg",
+            "description": "Juicy and sweet plums.",
+            "price": 252,
+            "category": "fruits",
+            "ratings": 4.6,
+            "timestamp": "2021-08-16"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c66",
+            "name": "Beetroot",
+            "image": "https://i.ibb.co/Ln29RsH/product-03.jpg",
+            "description": "Fresh and earthy beetroot.",
+            "price": 146,
+            "category": "vegetable",
+            "ratings": 4.4,
+            "timestamp": "2024-05-16"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c67",
+            "name": "Beetroot",
+            "image": "https://i.ibb.co/Ln29RsH/product-03.jpg",
+            "description": "Fresh and earthy beetroot.",
+            "price": 146,
+            "category": "vegetable",
+            "ratings": 4.4,
+            "timestamp": "2024-06-16"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c68",
+            "name": "Beetroot",
+            "image": "https://i.ibb.co/f42wj4v/other-01.jpg",
+            "description": "Fresh and earthy beetroot.",
+            "price": 146,
+            "category": "vegetable",
+            "ratings": 4.4,
+            "timestamp": "2024-07-16"
+        },
+        {
+            "_id": "66bfac3f65f6a431ccfd7c69",
+            "name": "Plums",
+            "image": "https://i.ibb.co/M5r2HZw/bg-item-04.jpg",
+            "description": "Juicy and sweet plums.",
+            "price": 252,
+            "category": "fruits",
+            "ratings": 4.6,
+            "timestamp": "2024-10-16"
+        }
+    ]
+}
