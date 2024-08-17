@@ -48,8 +48,24 @@ const Banner = () => {
         //     </div>
 
         // </div>
-        <div>
-            
+        <div className=''> 
+            <div
+                className="hero min-h-screen"
+                style={{
+                    backgroundImage: "url(https://i.ibb.co/wp83dyV/blog-01.jpg)",
+                }}>
+                <div className="hero-overlay bg-opacity-60"></div>
+                <div className="hero-content text-neutral-content text-center">
+                    <div className="max-w-md">
+                        <p className='text-green-400 font-bold'>Orgnici Products</p>
+                        <h1 className="mb-5 text-5xl font-bold">Fresh Foods</h1>
+                        <p className="mb-5">
+                        There are many variations of passages of Lorem Ipsum available
+                        </p>
+                        <button className="btn border-0 bg-green-500 text-white">Shop Now</button>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };

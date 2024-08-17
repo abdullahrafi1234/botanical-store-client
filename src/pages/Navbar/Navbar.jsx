@@ -24,7 +24,7 @@ const Navbar = () => {
 
     </>
     return (
-        <div className="navbar bg-base-100 px-6 py-4 items-center">
+        <div className="navbar bg-base-100 shadow-lg px-6 py-4 items-center">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -47,7 +47,8 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <Link to={'/'}>
+                <Link className='flex gap-3 h-16' to={'/'}>
+                    <img className="w-16" src='logo food.png' alt="" />
                     <a className="text-3xl font-medium text-center text-black">BOTANICAL <span><br /></span> <span className='font-normal text-lg font-sans text-green-600'>---- Store ----</span></a>
                 </Link>
 

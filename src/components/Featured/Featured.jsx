@@ -262,7 +262,7 @@ const Featured = () => {
                 <div className="space-x-5">
                     <select name="brand" onChange={handleFilters} value={nameFilter} className="select select-info w-52 max-w-xs">
                         <option disabled selected>Select Name</option>
-                        <option value="" >All Items</option>
+                        <option value="" >All Brands</option>
                         <option value="Carrot">Carrot</option>
                         <option value="Red Apple">Red Apple</option>
                         <option value="Banana">Banana</option>
