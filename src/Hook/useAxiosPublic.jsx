@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosPublic = axios.create({
-    baseURL: 'http://localhost:5000'
+    baseURL: 'https://botanical-plant-store-server-kp1f5k1xd.vercel.app'
 })
 
 const useAxiosPublic = () => {
