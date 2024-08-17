@@ -3,6 +3,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
+import Swal from "sweetalert2";
 
 
 const Login = () => {
@@ -23,6 +24,12 @@ const Login = () => {
             .then((result) => {
                 console.log(result.user)
                 navigate('/')
+                Swal.fire({
+                    title: 'Success!',
+                    text: 'Logged in Successfully',
+                    icon: 'success',
+                    confirmButtonText: 'OK'
+                })
             })
             .catch((error) => {
                 console.error(error)
@@ -34,6 +41,12 @@ const Login = () => {
             .then((result) => {
                 console.log(result.user)
                 navigate('/')
+                Swal.fire({
+                    title: 'Success!',
+                    text: 'Logged in Successfully',
+                    icon: 'success',
+                    confirmButtonText: 'OK'
+                })
             })
             .catch((error) => {
                 console.error(error)

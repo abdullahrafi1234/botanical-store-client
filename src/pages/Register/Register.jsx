@@ -3,10 +3,12 @@ import { FaFacebook } from 'react-icons/fa';
 import { FcGoogle } from 'react-icons/fc';
 import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../AuthProvider/AuthProvider';
+import Swal from 'sweetalert2';
 
 const Register = () => {
 
     const { createEmail, update } = useContext(AuthContext)
+    const navigate = useNavigate()
 
     const handleRegister = (e) => {
         e.preventDefault()
@@ -24,6 +26,13 @@ const Register = () => {
                 update(name, photo)
                     .then((result) => {
                         console.log(result)
+                        navigate('/')
+                        Swal.fire({
+                            title: 'Success!',
+                            text: 'Created Account Successfully',
+                            icon: 'success',
+                            confirmButtonText: 'OK'
+                        })
                     })
                     .catch()
 

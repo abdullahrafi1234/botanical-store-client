@@ -143,20 +143,18 @@ const Featured = () => {
     }
 
 
-
-
-
-
-
-
-
     return (
 
         <div>
             {/* featured section */}
-            <div className='mb-16'>
-                <p className="animate__animated animate__flipInX  text-4xl  text-center font-bold mt-32">Featured Properties</p>
-                <p className="border-b border-green-300 p-2 text-center w-96 mx-auto"></p>
+            <div className='mb-32 mt-32'>
+                <p className= ' flex items-center justify-center text-center'>
+                    <img src="featured.JPG" alt="" />
+                </p>
+
+                <p className="animate__animated animate__flipInX  text-5xl  text-center font-bold ">Our Products</p>
+                {/* <p className="border-b border-green-300 p-2 text-center w-96 mx-auto"></p> */}
+                
             </div>
 
 
@@ -237,7 +235,7 @@ const Featured = () => {
                 <form onSubmit={handleSearch} >
 
                     <input name='search' className='input input-bordered mr-3' placeholder='Search' type="text" />
-                    <button>search</button>
+                    <button className='btn '>Search</button>
 
                 </form>
             </div>

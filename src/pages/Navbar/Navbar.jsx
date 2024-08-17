@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { AuthContext } from '../../AuthProvider/AuthProvider';
 import { CiUser } from 'react-icons/ci';
 // import useAuth from '../hook/useAuth';
@@ -16,7 +16,7 @@ const Navbar = () => {
 
     const links = <>
 
-        <li><Link to={'/'} >Home </Link> </li>
+        <li><NavLink className={({ isActive }) => isActive ? 'btn btn-outline btn-success font-semibold' : 'btn font-medium btn-ghost'} to={'/'}>Home</NavLink></li>
         <li><Link to={''} >Products</Link></li>
         <li><Link>Services</Link></li>
         <li><Link>About</Link></li>
@@ -47,7 +47,9 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <a className="text-3xl font-medium text-center text-black">BOTANICAL <span><br /></span> <span className='font-normal text-lg font-sans text-green-600'>---- Store ----</span></a>
+                <Link to={'/'}>
+                    <a className="text-3xl font-medium text-center text-black">BOTANICAL <span><br /></span> <span className='font-normal text-lg font-sans text-green-600'>---- Store ----</span></a>
+                </Link>
 
                 {/* <div className="flex uppercase items-center pl-3 gap-2">
                     <img className="w-20 pt-3 items-center" src="logo.png" alt="" />
@@ -56,7 +58,7 @@ const Navbar = () => {
 
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1 font-medium">
+                <ul className="menu menu-horizontal px-1 font-medium items-center">
                     {links}
                 </ul>
             </div>
