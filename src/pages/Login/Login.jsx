@@ -1,9 +1,47 @@
+import { useContext } from "react";
 import { FaFacebook } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { AuthContext } from "../../AuthProvider/AuthProvider";
 
 
 const Login = () => {
+
+    const { login, google } = useContext(AuthContext)
+    const navigate = useNavigate()
+
+    const handleLogin = (e) => {
+
+        e.preventDefault()
+        console.log(e.currentTarget)
+        const form = new FormData(e.currentTarget)
+
+        const email = form.get('email')
+        const password = form.get('password')
+        console.log(email, password)
+        login(email, password)
+            .then((result) => {
+                console.log(result.user)
+                navigate('/')
+            })
+            .catch((error) => {
+                console.error(error)
+            })
+    }
+
+    const handleGoogle = () => {
+        google()
+            .then((result) => {
+                console.log(result.user)
+                navigate('/')
+            })
+            .catch((error) => {
+                console.error(error)
+            })
+    }
+
+
+
     return (
         <div className="">
             {/* <Helmet>
@@ -19,7 +57,7 @@ const Login = () => {
                 </div>
                 <div className="card shrink-0 lg:w-1/3 md:w-[700px] p-8 lg:py-20 md:py-2 py-2">
                     <h1 className="text-4xl font-semibold text-center">Log In</h1>
-                    <form className="card-body">
+                    <form onSubmit={handleLogin} className="card-body">
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">Email</span>
@@ -49,7 +87,7 @@ const Login = () => {
 
                     <div className="form-control mt-2 px-8">
                         {/* <button onClick={handleGoogleLogin} className="btn btn-outline  mt-4 px-8"> <FcGoogle className="text-3xl"></FcGoogle> Google Login</button> */}
-                        <button className="btn btn-outline  mt-4 px-8"> <FcGoogle className="text-3xl"></FcGoogle> Google Login</button>
+                        <button onClick={handleGoogle} className="btn btn-outline  mt-4 px-8"> <FcGoogle className="text-3xl"></FcGoogle> Google Login</button>
                     </div>
 
 

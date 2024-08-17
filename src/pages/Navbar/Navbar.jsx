@@ -1,15 +1,17 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../AuthProvider/AuthProvider';
+import { CiUser } from 'react-icons/ci';
 // import useAuth from '../hook/useAuth';
 
 const Navbar = () => {
-    // const { user, logOut } = useAuth()
+    const { user, logOut } = useContext(AuthContext)
 
-    // const handlelogOut = () => {
-    //     logOut()
-    //         .then()
-    //         .catch()
-    // }
+    const handlelogOut = () => {
+        logOut()
+            .then()
+            .catch()
+    }
 
 
     const links = <>
@@ -59,38 +61,33 @@ const Navbar = () => {
                 </ul>
             </div>
 
-            {/* <div className="navbar-end">
+            <div className="navbar-end">
                 {
                     user ?
                         <div className="dropdown dropdown-end">
                             <div tabIndex={0} role="button" className="btn  btn-circle avatar  tooltip tooltip-neutral  tooltip-left" data-tip={user.displayName}>
                                 <div className="w-12 rounded-full">
-                                    <img alt="Tailwind CSS Navbar component" src={user.photoURL || <CiUser />} />
+                                    <img alt="Profile Pic" src={user.photoURL || <CiUser />} />
                                 </div>
                             </div>
                             <ul tabIndex={0} className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
                                 <li className='hover:bg-neutral hover:text-lime-600 rounded-lg '><a className='text-sm'><span className='text-lg'>Hi,</span>{user.displayName}!</a></li>
-                                <li>
-                                    <a className="justify-between">
-                                        Profile
-                                        <span className="badge">New</span>
-                                    </a>
-                                </li>
-                                <li><a>Settings</a></li>
-                                <button onClick={handlelogOut}><a>Logout</a></button>
+                                {/* <li><a>Settings</a></li> */}
+                                {/* <button onClick={handlelogOut}><a>Logout</a></button> */}
+                                <button onClick={handlelogOut} className='btn bg-orange-400 w-full text-white'>Logout</button>
                             </ul>
                         </div> :
                         <div>
-                            <Link to='/login'><button className='btn'>Login</button></Link>
+                            <Link to='/login'><button className='btn bg-green-600 text-white'>Login</button></Link>
                         </div>
                 }
-            </div> */}
+            </div>
 
-            <div className='navbar-end'>
+            {/* <div className='navbar-end'>
                 <div>
                     <Link to='/login'><button className='btn bg-green-600 text-white'>Login</button></Link>
                 </div>
-            </div>
+            </div> */}
 
         </div>
     );
